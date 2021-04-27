@@ -1,0 +1,25 @@
+.navbar {
+  background-color: transparent;
+}
+
+.navbar a {
+  color: #0f0f0f;
+  letter-spacing: 0.08em;
+  font-size: 0.85em;
+  font-weight: 400;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar a:hover {
+  color: #7e6c6c;
+}
+
+.navItem:hover {
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 700;
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+  transition: transform 0.5s;
+}

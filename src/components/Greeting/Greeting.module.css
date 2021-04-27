@@ -1,0 +1,20 @@
+.greeting {
+  font-size: 7em;
+  color: #0f0f0f;
+  font-weight: 600;
+}
+.greeting::first-letter {
+  font-size: 2em;
+  color: #7e6c6c;
+}
+
+.greeting span {
+  color: #f4d6cc;
+}
+
+.type {
+  color: #0f0f0f;
+  font-family: "Vollkorn";
+  font-size: 3em;
+  margin-left: 30px;
+}
