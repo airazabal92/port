@@ -1,10 +1,11 @@
 .greeting {
-  font-size: 7em;
-  color: #0f0f0f;
+  font-size: 10em;
+  color: #292929;
   font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
 }
 .greeting::first-letter {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #7e6c6c;
 }
 
@@ -13,8 +14,10 @@
 }
 
 .type {
-  color: #0f0f0f;
-  font-family: "Vollkorn";
+  color: #292929;
+  margin-top: -15px;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
   font-size: 3em;
   margin-left: 18px;
 }

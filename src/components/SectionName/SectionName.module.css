@@ -1,0 +1,24 @@
+.title {
+  font-size: 3em;
+  position: relative;
+  padding-left: 15px;
+  z-index: 1;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  color: #292929;
+}
+
+.right {
+  margin-left: 30px;
+}
+
+.title:before {
+  content: "";
+  background-color: #f4d6cc;
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+  width: 200px;
+  height: 25px;
+  z-index: -1;
+}

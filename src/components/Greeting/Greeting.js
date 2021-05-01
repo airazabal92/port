@@ -14,7 +14,7 @@ const Greeting = () => {
       cursorChar: "|",
       strings: ["Amanda Irazabal", "a Developer", "a Designer"]
     });
-  });
+  }, []);
 
   return (
     <React.Fragment>
