@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./Skills.module.css";
 import { Row, Col } from "react-materialize";
 import SectionName from "../../components/SectionName/SectionName";
+import SkillIcon from "../../components/SkillIcon/SkillIcon";
 
 const Skills = () => {
   return (
@@ -21,9 +22,22 @@ const Skills = () => {
             campaigns along with updating and maintaining the corporate website.
           </p>
           <h2>Design/Platforms</h2>
+          <SkillIcon iconName="adobe" title="Adobe"></SkillIcon>
+          <SkillIcon iconName="magento" title="Magento"></SkillIcon>
+          <SkillIcon iconName="mailchimp" title="Mailchimp"></SkillIcon>
         </Col>
         <Col s={12} l={6}>
-          2
+          <h2>Development</h2>
+          <SkillIcon iconName="html5" title="HTML5"></SkillIcon>
+          <SkillIcon iconName="css3-alt" title="CSS3"></SkillIcon>
+          <SkillIcon iconName="js" title="JavaScript"></SkillIcon>
+          <SkillIcon iconName="node" title="Node.js"></SkillIcon>
+          <SkillIcon iconName="bootstrap" title="Bootstrap"></SkillIcon>
+          <SkillIcon iconName="uikit" title="UIKit"></SkillIcon>
+          <SkillIcon
+            imgURL="https://i.imgur.com/fuR0NP1.png"
+            title="Materialize"
+          ></SkillIcon>
         </Col>
       </Row>
     </React.Fragment>
