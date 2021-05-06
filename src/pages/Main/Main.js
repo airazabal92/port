@@ -2,7 +2,7 @@ import React from "react";
 import Intro from "../../containers/Intro/Intro";
 import Skills from "../../containers/Skills/Skills";
 
-const main = () => {
+const Main = () => {
   return (
     <React.Fragment>
       <Intro />
@@ -11,4 +11,4 @@ const main = () => {
   );
 };
 
-export default main;
+export default Main;

@@ -38,6 +38,31 @@ const Skills = () => {
             imgURL="https://i.imgur.com/fuR0NP1.png"
             title="Materialize"
           ></SkillIcon>
+          <SkillIcon
+            imgURL="https://i.imgur.com/UgjpLhL.png"
+            title="jQuery"
+          ></SkillIcon>
+          <SkillIcon iconName="react" title="React"></SkillIcon>
+          <SkillIcon
+            imgURL="https://i.imgur.com/2oeSzHw.png"
+            title="MySQL"
+          ></SkillIcon>
+          <SkillIcon
+            imgURL="https://i.imgur.com/yJBd94J.png"
+            title="MongoDB"
+          ></SkillIcon>
+          <SkillIcon iconName="database" title="IndexedDB"></SkillIcon>
+          <SkillIcon iconName="npm" title="npm"></SkillIcon>
+          <SkillIcon iconName="terminal" title="Terminal"></SkillIcon>
+          <SkillIcon iconName="github" title="Github"></SkillIcon>
+          <SkillIcon
+            imgURL="https://i.imgur.com/Zx9gsEp.png"
+            title="Heroku"
+          ></SkillIcon>
+          <SkillIcon
+            imgURL="https://i.imgur.com/1cLrZT0.png"
+            title="VSCode"
+          ></SkillIcon>
         </Col>
       </Row>
     </React.Fragment>

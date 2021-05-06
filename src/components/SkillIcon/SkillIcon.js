@@ -6,7 +6,12 @@ const SkillIcon = (props) => {
   if (props.imgURL) {
     icon = <img src={props.imgURL}></img>;
   } else {
-    const classData = `fab fa-${props.iconName} adobe fa-2x ${classes.icon}`;
+    const classData = `fab fa-${props.iconName} fa-2x ${classes.icon}`;
+    icon = <i className={classData}></i>;
+  }
+
+  if (props.iconName === "terminal" || props.iconName === "database") {
+    const classData = `fas fa-${props.iconName} fa-2x ${classes.icon}`;
     icon = <i className={classData}></i>;
   }
 
