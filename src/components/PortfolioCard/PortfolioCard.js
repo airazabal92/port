@@ -3,14 +3,15 @@ import React from "react";
 import { Card, Icon, CardTitle, Button } from "react-materialize";
 
 const PortfolioCard = (props) => {
+  const classData = `${props.className} ${props.type}`;
   return (
     <Card
+      className={classData}
       closeIcon={<Icon>close</Icon>}
       header={<CardTitle image={props.href} reveal waves="light" />}
       reveal={<p>{props.children}</p>}
-      revealIcon={<Icon>more_vert</Icon>}
+      revealIcon={<Icon className="material-icons-outlined">info</Icon>}
       title={props.title}
-      class={classes.card}
     >
       <p>
         <br />
