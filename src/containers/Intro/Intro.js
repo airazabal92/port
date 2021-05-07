@@ -12,7 +12,7 @@ const Intro = () => {
       <Col className={classes.intro} s={12} l={5}>
         <div className={classes.greeting}>
           <Greeting />
-          <hr />
+
           <About />
           <hr />
           <div className={classes.socialMediaIcons}>

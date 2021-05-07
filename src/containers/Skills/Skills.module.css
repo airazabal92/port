@@ -3,6 +3,7 @@ h2 {
   font-weight: 500;
   font-size: 1.8em;
   color: #7e6c6c;
+  margin-top: 2px;
 }
 
 p {
@@ -11,4 +12,17 @@ p {
 
 .col2 {
   text-align: right;
+}
+
+.designPlatforms {
+  margin-top: 40px;
+}
+
+hr {
+  margin: 0 0 20px 0;
+}
+
+.hrDev {
+  margin: 0 0 20px 5%;
+  width: 95%;
 }

@@ -14,12 +14,12 @@
 
 hr {
   border-top: 2px solid #fbfbfb;
-  width: 480px;
+  width: 95%;
 }
 
 .greeting {
   max-width: 600px;
   min-width: 600px;
   margin: auto;
-  padding: 30px;
+  padding-left: 20%;
 }

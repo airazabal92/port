@@ -1,19 +1,21 @@
 .icon {
-  color: red;
+  color: #a4a7b0;
 }
 
 .iconHolder {
-  border: 1px solid black;
+  border: 1px solid #fbfbfb;
+  max-height: 150px;
+  overflow: hidden;
   width: 90px;
   padding: 18px 0;
-  margin-left: 15px;
+  margin-right: 15px;
   text-align: center;
   display: inline-block;
   box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
 }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 0;
   padding: 0;
 }
