@@ -1,7 +1,13 @@
 .icon {
-  color: black;
+  color: #7e6c6c;
+  margin-right: 5px;
 }
 
 .icon:hover {
-  color: red;
+  color: #0f0f0f;
+}
+
+.iconContainer {
+  display: inline;
+  text-align: right;
 }

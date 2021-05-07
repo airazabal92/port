@@ -4,3 +4,11 @@ h2 {
   font-size: 1.8em;
   color: #7e6c6c;
 }
+
+p {
+  font-size: 1.15em;
+}
+
+.col2 {
+  text-align: right;
+}

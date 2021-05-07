@@ -10,19 +10,24 @@ const Intro = () => {
   return (
     <Row style={{ display: "block", marginTop: "50px" }}>
       <Col className={classes.intro} s={12} l={5}>
-        <Greeting />
-        <About />
-        <hr />
-        <SocialMediaBtn
-          iconName="github"
-          href="https://github.com/airazabal92"
-        />
-        <SocialMediaBtn
-          iconName="linkedin"
-          href="https://www.linkedin.com/in/amandairazabal/"
-        />
+        <div className={classes.greeting}>
+          <Greeting />
+          <hr />
+          <About />
+          <hr />
+          <div className={classes.socialMediaIcons}>
+            <SocialMediaBtn
+              iconName="github"
+              href="https://github.com/airazabal92"
+            />
+            <SocialMediaBtn
+              iconName="linkedin"
+              href="https://www.linkedin.com/in/amandairazabal/"
+            />
+          </div>
+        </div>
       </Col>
-      <Col className={classes.intro} s={12} l={7}>
+      <Col className={classes.portrait} s={12} l={7}>
         <Portrait />
       </Col>
     </Row>

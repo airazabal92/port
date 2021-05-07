@@ -1,3 +1,25 @@
 .intro {
-  padding-left: 80px !important;
+  text-align: left;
+}
+
+.portrait {
+  text-align: center;
+}
+
+.socialMediaIcons {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 25px;
+}
+
+hr {
+  border-top: 2px solid #fbfbfb;
+  width: 480px;
+}
+
+.greeting {
+  max-width: 600px;
+  min-width: 600px;
+  margin: auto;
+  padding: 30px;
 }

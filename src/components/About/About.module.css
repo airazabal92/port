@@ -1,4 +1,7 @@
 .about {
-  margin-left: 20px;
-  font-size: 18px;
+  font-size: 1.2em;
+  width: 490px;
+  text-align: left;
+  padding-left: 20px;
+  color: #707070;
 }
