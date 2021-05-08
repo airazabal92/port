@@ -18,7 +18,7 @@ const SkillIcon = (props) => {
   return (
     <div className={classes.iconHolder}>
       {icon}
-      <h3>{props.title}</h3>
+      <h3 className={classes.title}>{props.title}</h3>
     </div>
   );
 };

@@ -39,20 +39,20 @@ const Skills = () => {
           <SkillIcon iconName="bootstrap" title="Bootstrap"></SkillIcon>
           <SkillIcon iconName="uikit" title="UIKit"></SkillIcon>
           <SkillIcon
-            imgURL="https://i.imgur.com/fuR0NP1.png"
+            imgURL="https://i.imgur.com/K5IV8DE.png"
             title="Materialize"
           ></SkillIcon>
           <SkillIcon
-            imgURL="https://i.imgur.com/UgjpLhL.png"
+            imgURL="https://i.imgur.com/NyWBMl4.png"
             title="jQuery"
           ></SkillIcon>
           <SkillIcon iconName="react" title="React"></SkillIcon>
           <SkillIcon
-            imgURL="https://i.imgur.com/2oeSzHw.png"
+            imgURL="https://i.imgur.com/JEEstsN.png"
             title="MySQL"
           ></SkillIcon>
           <SkillIcon
-            imgURL="https://i.imgur.com/yJBd94J.png"
+            imgURL="https://i.imgur.com/MZmqyUq.png"
             title="MongoDB"
           ></SkillIcon>
           <SkillIcon iconName="database" title="IndexedDB"></SkillIcon>
@@ -60,11 +60,11 @@ const Skills = () => {
           <SkillIcon iconName="terminal" title="Terminal"></SkillIcon>
           <SkillIcon iconName="github" title="Github"></SkillIcon>
           <SkillIcon
-            imgURL="https://i.imgur.com/Zx9gsEp.png"
+            imgURL="https://i.imgur.com/ALyg7y1.png"
             title="Heroku"
           ></SkillIcon>
           <SkillIcon
-            imgURL="https://i.imgur.com/1cLrZT0.png"
+            imgURL="https://i.imgur.com/vjRWcQ1.png"
             title="VSCode"
           ></SkillIcon>
         </Col>
