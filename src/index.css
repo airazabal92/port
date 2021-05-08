@@ -10,3 +10,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.material-icons-outlined,
+.material-icons {
+  color: #a4a7b0;
+}
+
+.material-icons-outlined:hover,
+.material-icons:hover {
+  color: black;
+}
+
+.card .card-reveal {
+  background-color: #7e6c6c;
+  color: white;
+}

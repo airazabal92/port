@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import classes from "./Portfolio.module.css";
-import { Row, Col } from "react-materialize";
+import { Row, Col, Button } from "react-materialize";
 import SectionName from "../../components/SectionName/SectionName";
+import Dot from "../../components/Dot/Dot";
 import PortfolioCard from "../../components/PortfolioCard/PortfolioCard";
 
 const Portfolio = () => {
@@ -28,7 +29,7 @@ const Portfolio = () => {
       info: "An app that will find local events filtered by the users's budget."
     },
     {
-      type: "email",
+      type: "app",
       href: "https://i.imgur.com/uFcUp6V.png",
       title: "Weather Dashboard",
       code: "https://github.com/airazabal92/Weather-Dashboard",
@@ -66,24 +67,27 @@ const Portfolio = () => {
           <SectionName title="Portfolio" />
         </Col>
       </Row>
-      <Row style={{ display: "block", marginTop: "50px" }}>
+      <Row style={{ textAlign: "center" }}>
         <Col s={12} l={12}>
-          <button className="btn" onClick={showAll}>
+          <Button flat node="button" waves="light" onClick={showAll}>
             ALL
-          </button>
-          <button className="btn" onClick={showApps}>
+          </Button>
+          <Dot />
+          <Button flat node="button" waves="light" onClick={showApps}>
             APPS
-          </button>
-          <button className="btn" onClick={showMockups}>
+          </Button>
+          <Dot />
+          <Button flat node="button" waves="light" onClick={showMockups}>
             MOCKUPS
-          </button>
-          <button className="btn" onClick={showEmails}>
+          </Button>
+          <Dot />
+          <Button flat node="button" waves="light" onClick={showEmails}>
             EMAILS
-          </button>
+          </Button>
         </Col>
       </Row>
 
-      <Row style={{ display: "block", marginTop: "50px" }}>
+      <Row>
         <Col s={12} l={4} style={{ padding: "20px" }}>
           {filteredProjects &&
             filteredProjects.map((project, i) =>
