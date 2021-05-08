@@ -1,30 +1,40 @@
 import React from "react";
 import { Row, Col } from "react-materialize";
+import classes from "./Contact.module.css";
 import SectionName from "../../components/SectionName/SectionName";
-import SocialMediaBtn from "../../components/SocialMediaBtn/SocialMediaBtn";
 
 const Contact = () => {
   return (
     <React.Fragment>
-      <Row style={{ display: "block", marginTop: "50px" }}>
+      <Row>
         <Col s={12} l={12}>
           <SectionName title="Contact"></SectionName>
         </Col>
       </Row>
 
-      <Row style={{ display: "block" }}>
-        <Col s={12} l={6}>
-          <h2>Let's Connect!</h2>
-          <p>
+      <Row style={{ padding: "0 40px" }}>
+        <Col s={12} l={12}>
+          <h2 style={{ textAlign: "center" }}>Let's Connect!</h2>
+          <hr />
+          <p className={classes.contact}>
             I'm excited to continue to grow as a developer and welcome any new
-            projects! If you'd like to get in touch, message me on LinkedIn or
-            ai.devdesign@gmail.com.
+            projects! If you'd like to get in touch, message me on{" "}
+            <a
+              className={classes.contactLinks}
+              href="https://www.linkedin.com/in/amandairazabal/"
+            >
+              LinkedIn
+            </a>{" "}
+            or
+            <a
+              className={classes.contactLinks}
+              href="mailto:ai.devdesign@gmail.com"
+            >
+              {" "}
+              ai.devdesign@gmail.com
+            </a>
+            .
           </p>
-          <SocialMediaBtn iconName="github" />
-          <SocialMediaBtn iconName="linkedin" />
-        </Col>
-        <Col s={12} l={6}>
-          <SectionName title="Contact"></SectionName>
         </Col>
       </Row>
     </React.Fragment>

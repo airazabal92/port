@@ -1,0 +1,16 @@
+.contactLinks {
+  color: #7e6c6c;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.contactLinks:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+.contact {
+  font-size: 1.2em;
+  width: 600px;
+  margin: auto;
+}
