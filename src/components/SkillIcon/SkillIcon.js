@@ -18,7 +18,15 @@ const SkillIcon = (props) => {
   return (
     <div className={classes.iconHolder}>
       {icon}
-      <h3 className={classes.title}>{props.title}</h3>
+      <h3
+        style={{
+          fontFamily: `-apple-system, BlinkMacSystemFont, "Segoe UI" Ubuntu, Cantarell,
+        "Helvetica Neue", sans-serif`
+        }}
+        className={classes.title}
+      >
+        {props.title}
+      </h3>
     </div>
   );
 };
