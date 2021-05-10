@@ -1,5 +1,5 @@
 .greeting {
-  font-size: 11em;
+  font-size: 9em;
   color: #292929;
   font-weight: 600;
   font-family: "Ubuntu", sans-serif;
@@ -19,5 +19,17 @@
   font-weight: 600;
   font-family: "Ubuntu", sans-serif;
   font-size: 3em;
-  margin-left: 18px;
+  padding-left: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+  .type {
+    margin: 0;
+    padding-left: 0.2%;
+  }
+
+  .greeting {
+    margin: 0 0 0 -15px;
+    font-size: 9em;
+  }
 }

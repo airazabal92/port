@@ -1,5 +1,6 @@
-.intro {
+.greeting {
   text-align: left;
+  padding-left: 8%;
 }
 
 .portrait {
@@ -17,9 +18,8 @@ hr {
   width: 95%;
 }
 
-.greeting {
-  max-width: 600px;
-  min-width: 600px;
-  margin: auto;
-  padding-left: 20%;
+@media only screen and (max-width: 600px) {
+  .greeting {
+    padding: 5%;
+  }
 }
