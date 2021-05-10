@@ -61,7 +61,7 @@ const Portfolio = () => {
   };
 
   return (
-    <React.Fragment>
+    <section id="portfolio">
       <Row style={{ display: "block", marginTop: "50px" }}>
         <Col s={12} l={12}>
           <SectionName title="Portfolio" />
@@ -160,7 +160,7 @@ const Portfolio = () => {
             )}
         </Col>
       </Row>
-    </React.Fragment>
+    </section>
   );
 };
 

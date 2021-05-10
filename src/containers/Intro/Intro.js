@@ -10,7 +10,7 @@ const Intro = () => {
   return (
     <Row style={{ display: "block", marginTop: "50px" }}>
       <Col className={classes.intro} s={12} l={5}>
-        <div className={classes.greeting}>
+        <section id="about" className={classes.greeting}>
           <Greeting />
 
           <About />
@@ -25,7 +25,7 @@ const Intro = () => {
               href="https://www.linkedin.com/in/amandairazabal/"
             />
           </div>
-        </div>
+        </section>
       </Col>
       <Col className={classes.portrait} s={12} l={7}>
         <Portrait />

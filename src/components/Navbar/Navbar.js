@@ -27,19 +27,19 @@ const navbar = () => {
         preventScrolling: true
       }}
     >
-      <NavItem className={classes.navItem} href="">
+      <NavItem className={classes.navItem} href="#about">
         ABOUT
       </NavItem>
       <Separator />
-      <NavItem className={classes.navItem} href="components.html">
+      <NavItem className={classes.navItem} href="#skills">
         SKILLS
       </NavItem>
       <Separator />
-      <NavItem className={classes.navItem} href="components.html">
+      <NavItem className={classes.navItem} href="#portfolio">
         PORTFOLIO
       </NavItem>
       <Separator />
-      <NavItem className={classes.navItem} href="components.html">
+      <NavItem className={classes.navItem} href="#contact">
         CONTACT
       </NavItem>
     </Navbar>

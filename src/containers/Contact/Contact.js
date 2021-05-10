@@ -5,7 +5,7 @@ import SectionName from "../../components/SectionName/SectionName";
 
 const Contact = () => {
   return (
-    <React.Fragment>
+    <section id="contact">
       <Row>
         <Col s={12} l={12}>
           <SectionName title="Contact"></SectionName>
@@ -55,7 +55,7 @@ const Contact = () => {
           </div>
         </Col>
       </Row>
-    </React.Fragment>
+    </section>
   );
 };
 

@@ -6,7 +6,7 @@ import SkillIcon from "../../components/SkillIcon/SkillIcon";
 
 const Skills = () => {
   return (
-    <React.Fragment>
+    <section id="skills">
       <Row>
         <Col s={12} l={12}>
           <SectionName title="Skills" />
@@ -69,7 +69,7 @@ const Skills = () => {
           ></SkillIcon>
         </Col>
       </Row>
-    </React.Fragment>
+    </section>
   );
 };
 
