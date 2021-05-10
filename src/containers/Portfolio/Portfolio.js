@@ -69,19 +69,43 @@ const Portfolio = () => {
       </Row>
       <Row style={{ textAlign: "center" }}>
         <Col s={12} l={12}>
-          <Button flat node="button" waves="light" onClick={showAll}>
+          <Button
+            className={classes.portfolioBtn}
+            flat
+            node="button"
+            waves="light"
+            onClick={showAll}
+          >
             ALL
           </Button>
           <Dot />
-          <Button flat node="button" waves="light" onClick={showApps}>
+          <Button
+            className={classes.portfolioBtn}
+            flat
+            node="button"
+            waves="light"
+            onClick={showApps}
+          >
             APPS
           </Button>
           <Dot />
-          <Button flat node="button" waves="light" onClick={showMockups}>
+          <Button
+            className={classes.portfolioBtn}
+            flat
+            node="button"
+            waves="light"
+            onClick={showMockups}
+          >
             MOCKUPS
           </Button>
           <Dot />
-          <Button flat node="button" waves="light" onClick={showEmails}>
+          <Button
+            className={classes.portfolioBtn}
+            flat
+            node="button"
+            waves="light"
+            onClick={showEmails}
+          >
             EMAILS
           </Button>
         </Col>

@@ -14,30 +14,12 @@ const PortfolioCard = (props) => {
           {props.children} <br />
           <hr className={classes.revealSection} />
           <a href={props.code} target="_blank">
-            <Button
-              node="button"
-              style={{
-                marginRight: "5px",
-                color: "#0f0f0f",
-                backgroundColor: "white",
-                border: "1px solid #7e6c6c"
-              }}
-              waves="light"
-            >
+            <Button className={classes.cardBtn} node="button" waves="light">
               CODE
             </Button>
           </a>
           <a href={props.deployment} target="_blank">
-            <Button
-              node="button"
-              style={{
-                marginRight: "5px",
-                color: "#0f0f0f",
-                backgroundColor: "white",
-                border: "1px solid #7e6c6c"
-              }}
-              waves="light"
-            >
+            <Button node="button" className={classes.cardBtn} waves="light">
               DEPLOYMENT
             </Button>
           </a>

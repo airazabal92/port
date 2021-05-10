@@ -2,15 +2,41 @@
   color: #7e6c6c;
   text-decoration: underline;
   font-weight: bold;
+  -webkit-transition: font-size 0.75s;
+  -moz-transition: font-size 0.75s;
+  -o-transition: font-size 0.75s;
+  transition: font-size 0.75s;
 }
 
 .contactLinks:hover {
   color: black;
-  font-weight: bolder;
+  font-weight: 800;
+  font-size: 1.21em;
 }
 
 .contact {
   font-size: 1.2em;
   width: 600px;
-  margin: auto;
+}
+
+.contactImg {
+  width: 50%;
+}
+
+.contactBtn {
+  margin-right: 20px;
+  color: #0f0f0f;
+  background-color: white;
+  border: 1px solid #7e6c6c;
+}
+
+.contactBtn:hover {
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 700;
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+  transition: transform 0.5s;
+  color: #7e6c6c;
 }

@@ -12,3 +12,21 @@
 .revealSection {
   margin-top: 20px;
 }
+
+.cardBtn {
+  margin-right: 20px;
+  color: #0f0f0f;
+  background-color: white;
+  border: 1px solid #7e6c6c;
+}
+
+.cardBtn:hover {
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 700;
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+  transition: transform 0.5s;
+  color: #7e6c6c;
+}
