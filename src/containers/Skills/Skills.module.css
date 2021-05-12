@@ -26,3 +26,36 @@ hr {
   margin: 0 0 20px 5%;
   width: 95%;
 }
+
+.skillsInfo {
+  padding-right: 70px;
+}
+
+.rowSkills {
+  padding: 0 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .skillsInfo {
+    width: 100%;
+    padding: 0 25px;
+  }
+
+  .rowSkills {
+    padding: 0;
+  }
+
+  .col2 {
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  .mobileSkillIcons {
+    text-align: center;
+  }
+
+  .designPlatforms h2,
+  .col2 h2 {
+    text-align: center;
+  }
+}

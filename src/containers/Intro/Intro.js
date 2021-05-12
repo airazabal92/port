@@ -9,9 +9,12 @@ import SocialMediaBtn from "../../components/SocialMediaBtn/SocialMediaBtn";
 const Intro = () => {
   return (
     <Row style={{ display: "block", marginTop: "50px" }}>
-      <Col className={classes.intro} s={12} l={5}>
+      <Col s={12} l={5}>
         <section id="about" className={classes.greeting}>
           <Greeting />
+          <div className={classes.holder} id={classes.mobilePortrait}>
+            <Portrait />
+          </div>
 
           <About />
           <hr />
@@ -28,7 +31,9 @@ const Intro = () => {
         </section>
       </Col>
       <Col className={classes.portrait} s={12} l={7}>
-        <Portrait />
+        <div className={classes.holder} id={classes.portrait}>
+          <Portrait />
+        </div>
       </Col>
     </Row>
   );

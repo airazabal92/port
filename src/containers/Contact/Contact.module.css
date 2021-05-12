@@ -15,8 +15,12 @@
 }
 
 .contact {
+  margin-top: 25px;
+}
+
+.contactInfo {
   font-size: 1.2em;
-  width: 600px;
+  width: 100%;
 }
 
 .contactImg {
@@ -30,6 +34,10 @@
   border: 1px solid #7e6c6c;
 }
 
+.contactIcon {
+  text-align: center;
+}
+
 .contactBtn:hover {
   background-color: transparent;
   text-decoration: none;
@@ -39,4 +47,26 @@
   transform: scale(1.15);
   transition: transform 0.5s;
   color: #7e6c6c;
+}
+
+.contactIconMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact h2 {
+    text-align: center;
+  }
+  .contactIcon {
+    display: none;
+  }
+
+  .contactIconMobile {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .contactMobileBtn {
+    text-align: center;
+  }
 }

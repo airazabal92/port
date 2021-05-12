@@ -13,16 +13,19 @@ const PortfolioCard = (props) => {
         <p>
           {props.children} <br />
           <hr className={classes.revealSection} />
-          <a href={props.code} target="_blank">
-            <Button className={classes.cardBtn} node="button" waves="light">
-              CODE
-            </Button>
-          </a>
-          <a href={props.deployment} target="_blank">
-            <Button node="button" className={classes.cardBtn} waves="light">
-              DEPLOYMENT
-            </Button>
-          </a>
+          <div className={classes.btnMobile}>
+            <a href={props.code} target="_blank">
+              <Button className={classes.cardBtn} node="button" waves="light">
+                CODE
+              </Button>
+            </a>
+
+            <a href={props.deployment} target="_blank">
+              <Button node="button" className={classes.cardBtn} waves="light">
+                DEPLOYMENT
+              </Button>
+            </a>
+          </div>
         </p>
       }
       revealIcon={<Icon className="material-icons-outlined info ">info</Icon>}

@@ -15,7 +15,7 @@
 
 .cardBtn {
   margin-right: 20px;
-  color: #0f0f0f;
+  color: rgb(65, 64, 64);
   background-color: white;
   border: 1px solid #7e6c6c;
 }
@@ -29,4 +29,10 @@
   transform: scale(1.15);
   transition: transform 0.5s;
   color: #7e6c6c;
+}
+
+@media only screen and (max-width: 600px) {
+  .btnMobile {
+    text-align: center;
+  }
 }

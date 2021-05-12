@@ -3,10 +3,13 @@
   width: 100%;
   text-align: left;
   padding-left: 20px;
+  font-weight: 600;
+  color: gray;
 }
 
 @media only screen and (max-width: 600px) {
   .about {
-    margin-left: -20px;
+    width: 120%;
+    margin-left: -40px;
   }
 }
