@@ -6,7 +6,13 @@ import SkillIcon from "../../components/SkillIcon/SkillIcon";
 
 const Skills = () => {
   return (
-    <section id="skills">
+    <section
+      id="skills"
+      // style={{
+      //   backgroundImage: "url(https://i.imgur.com/lOqoFgb.jpg)",
+      //   backgroundSize: "contain"
+      // }}
+    >
       <Row>
         <Col s={12} l={12}>
           <SectionName title="Skills" />
@@ -23,7 +29,7 @@ const Skills = () => {
           </p>
           <section className={classes.designPlatforms}>
             <h2>Design/Platforms</h2>
-            <hr />
+            <hr className={classes.skillsHr} />
             <div className={classes.mobileSkillIcons}>
               <SkillIcon iconName="adobe" title="Adobe"></SkillIcon>
               <SkillIcon iconName="magento" title="Magento"></SkillIcon>
@@ -33,7 +39,7 @@ const Skills = () => {
         </Col>
         <Col s={12} l={6} className={classes.col2}>
           <h2 style={{ marginRight: "15px" }}>Development</h2>
-          <hr className={classes.hrDev} />
+          <hr className={classes.skillsHr} />
           <div className={classes.mobileSkillIcons}>
             <SkillIcon iconName="html5" title="HTML5"></SkillIcon>
             <SkillIcon iconName="css3-alt" title="CSS3"></SkillIcon>

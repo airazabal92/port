@@ -1,6 +1,9 @@
 .greeting {
+  padding-top: 60px;
   text-align: left;
+  position: relative;
   padding-left: 8%;
+  z-index: 100;
 }
 
 .portrait {
@@ -22,9 +25,14 @@ hr {
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+.particleHolder {
+  margin-top: -50px;
+}
+
+@media only screen and (max-width: 992px) {
   .greeting {
     padding: 0 10%;
+    margin-top: 50px;
   }
 
   .holder#mobilePortrait {

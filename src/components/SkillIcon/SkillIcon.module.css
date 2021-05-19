@@ -4,6 +4,7 @@
 
 .iconHolder {
   border: 1px solid #fbfbfb;
+  background-color: white;
   max-height: 150px;
   overflow: hidden;
   width: 90px;

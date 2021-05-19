@@ -5,15 +5,25 @@ import classes from "./Intro.module.css";
 import About from "../../components/About/About";
 import Greeting from "../../components/Greeting/Greeting";
 import SocialMediaBtn from "../../components/SocialMediaBtn/SocialMediaBtn";
+import Particles from "../../components/ParticleComp/ParticleComp";
 
 const Intro = () => {
   return (
-    <Row style={{ display: "block", marginTop: "50px" }}>
+    <Row
+      style={{
+        display: "block",
+        marginTop: "50px"
+      }}
+    >
       <Col s={12} l={5}>
+        <div className={classes.particleHolder}>
+          <Particles />
+        </div>
+
         <section id="about" className={classes.greeting}>
           <Greeting />
           <div className={classes.holder} id={classes.mobilePortrait}>
-            <Portrait />
+            <Portrait img="https://i.imgur.com/7Ax2FgE.jpeg" />
           </div>
 
           <About />
@@ -32,7 +42,7 @@ const Intro = () => {
       </Col>
       <Col className={classes.portrait} s={12} l={7}>
         <div className={classes.holder} id={classes.portrait}>
-          <Portrait />
+          <Portrait img="https://i.imgur.com/Zc4Y87w.png" />
         </div>
       </Col>
     </Row>

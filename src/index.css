@@ -25,3 +25,17 @@ code {
   background-color: white;
   color: black;
 }
+
+#tsparticles {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 65%;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 992px) {
+  #tsparticles {
+    display: none;
+  }
+}

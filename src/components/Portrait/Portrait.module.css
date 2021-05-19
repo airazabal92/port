@@ -1,11 +1,20 @@
 .portrait {
-  width: 80%;
+  width: 700px;
   margin-left: 15%;
+  margin-top: -25px;
 }
 
 @media only screen and (max-width: 600px) {
   .portrait {
+    width: 80%;
     margin: 30px 0 0 5%;
     width: 95%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .portrait {
+    width: 700px;
+    margin-top: 18px;
   }
 }

@@ -17,8 +17,7 @@ const Portfolio = () => {
       title: "iEat",
       code: "https://github.com/airazabal92/iEat",
       deployment: "https://ieat-v2-app.herokuapp.com/",
-      info:
-        "An app that generates a weekly meal plan with recipe instructions and list of all ingredients needed to go shopping based on user's input."
+      info: "An app that generates a weekly meal plan with recipe instructions and list of all ingredients needed to go shopping based on user's input."
     },
     {
       type: "app",
@@ -67,7 +66,7 @@ const Portfolio = () => {
           <SectionName title="Portfolio" />
         </Col>
       </Row>
-      <Row style={{ textAlign: "center" }}>
+      {/* <Row style={{ textAlign: "center" }}>
         <Col s={12} l={12}>
           <Button
             className={classes.portfolioBtn}
@@ -109,7 +108,7 @@ const Portfolio = () => {
             EMAILS
           </Button>
         </Col>
-      </Row>
+      </Row> */}
 
       <Row>
         <Col s={12} l={4} style={{ padding: "20px" }}>
