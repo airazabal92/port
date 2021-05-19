@@ -6,13 +6,7 @@ import SkillIcon from "../../components/SkillIcon/SkillIcon";
 
 const Skills = () => {
   return (
-    <section
-      id="skills"
-      // style={{
-      //   backgroundImage: "url(https://i.imgur.com/lOqoFgb.jpg)",
-      //   backgroundSize: "contain"
-      // }}
-    >
+    <section id="skills">
       <Row>
         <Col s={12} l={12}>
           <SectionName title="Skills" />

@@ -8,11 +8,7 @@ const navbar = () => {
     <Navbar
       className={classes.navbar}
       alignLinks="right"
-      brand={
-        <a className="brand-logo" href="#">
-          Logo
-        </a>
-      }
+      brand={<a className="brand-logo"></a>}
       centerChildren
       menuIcon={<Icon>menu</Icon>}
       options={{

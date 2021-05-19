@@ -12,7 +12,8 @@ const Intro = () => {
     <Row
       style={{
         display: "block",
-        marginTop: "50px"
+        marginTop: "50px",
+        marginBottom: "-30px"
       }}
     >
       <Col s={12} l={5}>
